@@ -1,6 +1,6 @@
 name: Bitcoin
-version: '2.5'
-author: Donut
+version: '3.0'
+author: Glayzor
 main: us.donut.bitcoin.Bitcoin
 website: https://www.spigotmc.org/resources/bitcoin.52085/
 depend: [Vault]
@@ -10,7 +10,7 @@ commands:
   bitcoin:
     description: Opens bitcoin menu
     usage: /bitcoin
-    aliases: [btc]
+    aliases: [btcn]
 permissions:
   bitcoin.*:
     description: Gives access to all bitcoin commands
